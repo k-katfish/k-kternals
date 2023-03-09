@@ -29,3 +29,7 @@ Create a task to run as %LogonDomain%\%LogonUser% . Set the trigger to be On Wor
 Create a task to run as %LogonDomain%\%LogonUser% . Set the trigger to be On Workstation unlock of %LogonDomain%\%LogonUser%. Set the action to be: Run a program, `%APPDATA%\your-org\OnWorkstationUnlock.exe`.
 
 Replce `%APPDATA%\your-org` with the path to the two executables, if it's somewhere other than `%APPDATA%\your-org`.
+
+## Notes
+
+This tool (these two related tools) will not run if the local user is the account named "Administrator". This is so that when deploying a machine via MDT, the task sequence can continue to run for an extended period of time even though the local administrator account may have locked the workstation.

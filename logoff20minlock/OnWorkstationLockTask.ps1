@@ -1,3 +1,5 @@
+if ($env:USERNAME -eq "Administrator") { exit }
+
 [Environment]::SetEnvironmentVariable("OWLpid", $PID, "User")
 $SessionID = (Get-Process -PID $PID).SessionId
 
