@@ -15,3 +15,7 @@ You know RDP shadowing? I guess it's actually called Terminal Services shadowing
 ## Scan
 
 Run Scan.exe, provide a computer name to scan, and (assuming you have remote access perms) you'll see a very lovely GUI output of a whole bunch of information about the computer, organized into sections like the CPU section, Hardware section, Operating System section, etc. You can quickly copy/paste info like the UUID, Serial Number, MAC Address, Processor Name, number of GB of disk space on the C:\ drive, and more.
+
+## Thin Client
+
+This is more documentation/instructions than anything. Basically you can replace your Windows login shell with a script which launches mstsc (remote desktop) to automatically connect you to a different computer as soon as you log in. Assumes you have good network connectivity. See README in the folder for more info on setup/configuration & deployment.
