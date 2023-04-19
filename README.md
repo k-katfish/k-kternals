@@ -11,3 +11,7 @@ A tool designed to automatically log a user off after a certain ammount of inact
 ## 6thSense
 
 You know RDP shadowing? I guess it's actually called Terminal Services shadowing but whatever. Anyway... wouldn't it be nice to know if someone is watching your session remotely? This is a set of scheduled tasks (you'll have to import them yourself) which listen for the shadow events 20503, 20504, 20506 and 20507 and then trigger a msg box with the appropriate text to alert you that your session is being watched/controlled/unwatched/uncontrolled.
+
+## Scan
+
+Run Scan.exe, provide a computer name to scan, and (assuming you have remote access perms) you'll see a very lovely GUI output of a whole bunch of information about the computer, organized into sections like the CPU section, Hardware section, Operating System section, etc. You can quickly copy/paste info like the UUID, Serial Number, MAC Address, Processor Name, number of GB of disk space on the C:\ drive, and more.
