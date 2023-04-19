@@ -1,0 +1,3 @@
+Add an  'installer' for 6thSense that automates the process of importing/creating the tasks
+Modify the 6thSense things to run as the builtin administrator account, rather than a domain admin account
+Modify the 6thSense things to run per-user rather than per-machine, optionally
