@@ -46,6 +46,7 @@ function Invoke-ConfigureHPBiosBIOSword () {
                     $Report += "BIOS password is already set.`r`n"
                 } else {
                     $Report += "No BIOS password set. Setting BIOS password to $using:BIOSWord`r`n"
+                    Set-HPBIOSSetupPassword -ComputerName $ComputerName -NewPassword $using:BIOSWord
                 }
 
                 try {
