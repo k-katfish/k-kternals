@@ -4,6 +4,8 @@ Like sysinternals... but the tools that I wrote
 
 Each of these tools has it's own folder, with it's own README file with more details on each tool. But here's a quick list of the tools.
 
+<https://kkatfish.com/cli-reference>
+
 ## AutoLogoff
 
 A tool designed to automatically log a user off after a certain ammount of inactivity (after they lock the workstation). Meant to be deployed in a Server Active Directory domain environment. Put a copy of the .exe on a globally accessible share (like your domain controller's public share) and then create a GPO as described in the readme.
