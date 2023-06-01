@@ -1,12 +1,12 @@
-echo "  ____   ____    _    _   _  "
-echo " / ___| / ___|  / \  | \ | | "
-echo " \___ \| |     / _ \ |  \| | "
-echo "  ___) | |___ / ___ \| |\  | "
-echo " |____/ \____/_/   \_\_| \_| "
-echo "                             "
+Write-Host "  ____   ____    _    _   _  "
+Write-Host " / ___| / ___|  / \  | \ | | "
+Write-Host " \___ \| |     / _ \ |  \| | "
+Write-Host "  ___) | |___ / ___ \| |\  | "
+Write-Host " |____/ \____/_/   \_\_| \_| "
+Write-Host "                             "
 
-echo "Written by Kyle Ketchell for Engineering Technology Services"
-echo ""
+Write-Host "Written by Kyle Ketchell for Engineering Technology Services"
+Write-Host ""
 
 $ComputerName = Read-Host -Prompt "Enter Computer Name to scan"
 #$ComputerName = $ComputerName.Substring(0,$ComputerName.Length-1)
