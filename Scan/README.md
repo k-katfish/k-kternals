@@ -8,7 +8,9 @@ It's to help you get information about a computer. The helpful stuff, with just 
 
 run (double-click) SCAN.exe . You'll be prompted to type in a computer name, do that, then wait a few seconds for the computer to be scanned.
 
-Either run the ScanHost.ps1 script directly from Powershell (be sure you have your script execution policies set up correctly, you can use ***Set-ExecutionPolicy [leve] -Scope [scope]*** to configure this), or just run the Scan.exe launcher tool.
+Alternatively, you can run (double-click) SCAN_THIS_PC.exe to scan "This PC".
+
+OR: to run from a command: Either run the ScanHost.ps1 script directly from Powershell (be sure you have your script execution policies set up correctly, you can use ***Set-ExecutionPolicy [leve] -Scope [scope]*** to configure this), or just run the Scan.exe launcher tool.
 
 ## Notes
 
