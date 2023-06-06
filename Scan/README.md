@@ -2,6 +2,8 @@
 
 It's to help you get information about a computer. The helpful stuff, with just enough information to make an informed decision about the computer, without too much extra nonsense.
 
+![Sample Scan result](https://github.com/k-katfish/k-kternals/blob/main/Scan/ScanResultSample.png "Sample Scan Results")
+
 ## Usage
 
 run (double-click) SCAN.exe . You'll be prompted to type in a computer name, do that, then wait a few seconds for the computer to be scanned.
